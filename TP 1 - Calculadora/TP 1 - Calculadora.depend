@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554329662 source:e:\utn\tp 1\tp 1 - calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"operations.h"
+
+1554329230 e:\utn\tp 1\tp 1 - calculadora\operations.h
+
+1554329326 source:e:\utn\tp 1\tp 1 - calculadora\operations.c
+	<stdio.h>
+	<stdlib.h>
+	"operations.h"
+
