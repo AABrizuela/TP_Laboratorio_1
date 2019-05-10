@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1538603406 source:e:\utn\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1538602386 e:\utn\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\arrayemployees.h
+
+1538405702 source:e:\utn\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+
+1538399962 source:d:\brizuela.adrian\programacion_1_laboratorio_1-master\trabajos practicos\tp_laboratorio_1-master\tp 2 - abm\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+
+1538399381 d:\brizuela.adrian\programacion_1_laboratorio_1-master\trabajos practicos\tp_laboratorio_1-master\tp 2 - abm\arrayemployees.h
+
+1538359014 source:d:\brizuela.adrian\programacion_1_laboratorio_1-master\trabajos practicos\tp_laboratorio_1-master\tp 2 - abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+
+1538598516 source:e:\utn\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1538600191 e:\utn\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\utn.h
+
+1541730292 source:c:\utn\utn 2018\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+
+1557443762 c:\utn\utn 2018\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\arrayemployees.h
+
+1557465158 source:c:\utn\utn 2018\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1557438073 c:\utn\utn 2018\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\utn.h
+
+1541782948 source:c:\utn\utn 2018\primer cuatrimestre\programacion_1_laboratorio_1-master\trabajos practicos\tp 2 - abm\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"utn.h"
+
