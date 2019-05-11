@@ -156,14 +156,18 @@ void subMenu(eEmployee employeeList[], int len)
     while(optionSubMenu != 3);
 }
 
-void initEmployees(eEmployee employeeList[], int len)
+int initEmployees(eEmployee employeeList[], int len)
 {
     int i=0;
+    int ret = -1;
 
     for(i=0; i < len; i++)
     {
         employeeList[i].isEmpty = 0;
+        ret = 0;
     }
+
+    return ret;
 }
 
 int getFreeSpot(eEmployee employeeList[], int len)
@@ -274,8 +278,9 @@ int addEmployee(eEmployee employeeList[], int len)
     return ret;
 }
 
-void removeEmployee(eEmployee employeeList[], int len)
+int removeEmployee(eEmployee employeeList[], int len)
 {
+    int ret = -1;
     int id;
     int index;
     char deleteEmployee;
@@ -306,16 +311,18 @@ void removeEmployee(eEmployee employeeList[], int len)
         {
             employeeList[index].isEmpty = 0;
             printf("Se ha eliminado el empleado\n\n");
+            ret = 0;
         }
         system("pause");
     }
+    return ret;
 }
 
-void sortByAlphaAndSector(eEmployee employeeList[], int len)
+int sortByAlphaAndSector(eEmployee employeeList[], int len)
 {
     eEmployee auxEmp;
     int i, j;
-
+    int ret = -1;
     if(employeeList!=NULL && len > 0)
     {
         for(i=0; i < len; i++)
@@ -336,7 +343,9 @@ void sortByAlphaAndSector(eEmployee employeeList[], int len)
                 }
             }
         }
+        ret = 0;
     }
+    return ret;
 }
 
 void printEmployee(eEmployee employee)
@@ -344,9 +353,10 @@ void printEmployee(eEmployee employee)
     printf("%d\t%s\t%s\t%.2f\t%d", employee.id, employee.lastName, employee.name, employee.salary, employee.sector);
 }
 
-void printEmployees(eEmployee employeeList[], int len)
+int printEmployees(eEmployee employeeList[], int len)
 {
     int i;
+    int ret = -1;
 
     for(i=0; i< len; i++)
     {
@@ -354,8 +364,11 @@ void printEmployees(eEmployee employeeList[], int len)
         {
             printEmployee(employeeList[i]);
             printf("\n");
+            ret = 0;
         }
     }
+
+    return ret;
 }
 
 int findEmployeeById(eEmployee employeeList[], int len, int id)

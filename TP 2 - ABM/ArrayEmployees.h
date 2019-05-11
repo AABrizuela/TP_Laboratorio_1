@@ -15,11 +15,11 @@ typedef struct
 
 }eEmployee;
 
-/** \brief
+/** \brief Finds the first free spot on the array list
  *
- * \param employeeList[] eEmployee
- * \param len int
- * \return int
+ * \param employeeList[] eEmployee The array of employees
+ * \param len int Array lenght
+ * \return int the number of the free index
  *
  */
 int getFreeSpot(eEmployee employeeList[], int len);
@@ -32,7 +32,7 @@ int getFreeSpot(eEmployee employeeList[], int len);
  * \return int Return (-1) if Error [Invalid length or NULL pointer] - (0) if Ok
  *
  */
-void initEmployees( eEmployee employeeList[], int len);
+int initEmployees( eEmployee employeeList[], int len);
 
 /** \brief Add an employee on the first empty position of the array
  *
@@ -50,50 +50,49 @@ int addEmployee(eEmployee employeeList[], int len);
  */
 void menu();
 
-/** \brief
+/** \brief Sub menu
  *
- * \param employeeList[] eEmployee
- * \param len int
+ * \param employeeList[] eEmployee The array of employees
+ * \param len int The size of the array
  * \return void
  *
  */
 void subMenu(eEmployee employeeList[], int len);
 
-/** \brief
+/** \brief Sorts by alphabet and sector
  *
- * \param employeeList[] eEmployee
- * \param len int
- * \return void
- *
- */
-void sortByAlphaAndSector(eEmployee employeeList[], int len);
-
-/** \brief
- *
- * \param employeeList[] eEmployee
- * \param len int
- * \return void
+ * \param employeeList[] eEmployee The array of employees
+ * \param len int The size of the array
+ * \return int Returns -1 if the array is NULL and the size of the array is 0, returns 0 if OK
  *
  */
-void removeEmployee(eEmployee employeeList[], int len);
+int sortByAlphaAndSector(eEmployee employeeList[], int len);
 
-/** \brief
+/** \brief Removes an employee by id
  *
- * \param employee eEmployee
- * \param len int
+ * \param employeeList[] eEmployee The employee list
+ * \param len int the size of the array
+ * \return int returns -1 if it didnt find the employee and returns 0 if Ok
+ *
+ */
+int removeEmployee(eEmployee employeeList[], int len);
+
+/** \brief Prints ONE employee
+ *
+ * \param employee eEmployee The one employee to be printed
  * \return void
  *
  */
 void printEmployee(eEmployee employee);
 
-/** \brief
+/** \brief Prints all the employees of the array
  *
- * \param employeeList[] eEmployee
- * \param len int
- * \return void
+ * \param employeeList[] eEmployee The employee list
+ * \param len int The size of the array
+ * \return int Returns -1 if it found nothing or returns 0 if Ok
  *
  */
-void printEmployees(eEmployee employeeList[], int len);
+int printEmployees(eEmployee employeeList[], int len);
 
 /** \brief find an Employee by Id en returns the index position in array.
  *
